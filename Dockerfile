@@ -20,7 +20,7 @@ COPY app.py .
 COPY modelo_XGBoost_estres.joblib modelo_XGBoost_estres.joblib
 
 # Puerto expuesto (ajusta al puerto que usa tu API)
-EXPOSE 5001
+EXPOSE 5000
 
 # Comando de inicio (ajusta según tu API)
 CMD ["python", "app.py"]
